@@ -10,6 +10,7 @@ body{
     background-size:cover;
     height: 700px;
     position: relative;
+	background-repeat:no-repeat;
     
 }
 
