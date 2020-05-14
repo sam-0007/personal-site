@@ -8,9 +8,12 @@ body{
     font-family: sans-serif;
     background-image: url(../images/homeback.jpg);
     background-size:cover;
-    height: 100%;
+    height: 800px;
     position: relative;
     background-repeat: no-repeat;
+    
+        
+
     
 }
 
@@ -18,7 +21,7 @@ body{
 .one{
 
     background-color: black;
-    height: 10%;
+    height: 12%;
 }
 .one img{height: 60px;
     width: auto;
@@ -31,7 +34,7 @@ margin-left: 10px;
 .sidebar{
   position: relative;
   width: 20%;
-  left: -25%;
+  left: -75%;
   height: 395px;
   background: rgba(0,0,0,.5);
   transition: all .5s ease;
@@ -118,7 +121,7 @@ label #cancel{
     z-index: 1;
   visibility: visible;
 }
-@media(max-width : 860px){
+@media(max-width : 160px){
   .sidebar{
     height: auto;
     width: 70px;
@@ -154,6 +157,10 @@ label #cancel{
     height: 292px;
     margin-top: -300px ;
 margin-left: 350px;
+      display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    
 }
             
 .hi-slide .hi-next,
@@ -222,8 +229,9 @@ margin-left: 350px;
    background:black;
    padding: 50px;
     list-style: none;
+    margin-top: 200px;
     
-    margin-top: 20%;
+    
     
 }
 
