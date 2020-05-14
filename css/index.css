@@ -10,7 +10,7 @@ body{
     background-size:cover;
     height: 700px;
     position: relative;
-	background-repeat:no-repeat;
+    background-repeat: no-repeat;
     
 }
 
@@ -18,7 +18,7 @@ body{
 .one{
 
     background-color: black;
-    height: 65px;
+    height: 10%;
 }
 .one img{height: 60px;
     width: auto;
@@ -30,8 +30,8 @@ margin-left: 10px;
 
 .sidebar{
   position: relative;
-  width: 240px;
-  left: -240px;
+  width: 20%;
+  left: -25%;
   height: 395px;
   background: rgba(0,0,0,.5);
   transition: all .5s ease;
@@ -150,7 +150,7 @@ label #cancel{
   }
 }
 .hi-slide { position: relative; 
-    width: 754px;
+    width: 70%;
     height: 292px;
     margin-top: -300px ;
 margin-left: 350px;
@@ -160,7 +160,7 @@ margin-left: 350px;
 .hi-slide .hi-prev 
             { position: absolute;
               top: 50%; 
-              width: 40px;
+              width: 3%;
               height: 40px; 
               margin-top: -20px;     
                 border-radius: 50px; 
@@ -192,7 +192,7 @@ margin-left: 350px;
                     { 
                         list-style: none; 
                         position: relative;
-                        width: 754px; 
+                        width: 70%; 
                         height: 292px; 
                         margin: 0;
                         padding: 0;
@@ -203,7 +203,7 @@ margin-left: 350px;
             overflow: hidden; 
             position: absolute; 
             z-index: 0; 
-            left: 377px;
+            left:37%;
             top: 146px; 
             width: 0; 
             height: 0; 
