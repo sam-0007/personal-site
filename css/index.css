@@ -150,7 +150,7 @@ label #cancel{
   }
 }
 .hi-slide { position: relative; 
-    width: 70%;
+    width: 754px;
     height: 292px;
     margin-top: -300px ;
 margin-left: 350px;
@@ -160,7 +160,7 @@ margin-left: 350px;
 .hi-slide .hi-prev 
             { position: absolute;
               top: 50%; 
-              width: 3%;
+              width: 5%;
               height: 40px; 
               margin-top: -20px;     
                 border-radius: 50px; 
@@ -192,7 +192,7 @@ margin-left: 350px;
                     { 
                         list-style: none; 
                         position: relative;
-                        width: 70%; 
+                        width: 754px; 
                         height: 292px; 
                         margin: 0;
                         padding: 0;
@@ -203,7 +203,7 @@ margin-left: 350px;
             overflow: hidden; 
             position: absolute; 
             z-index: 0; 
-            left:37%;
+            left: 377px;
             top: 146px; 
             width: 0; 
             height: 0; 
