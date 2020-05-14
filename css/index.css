@@ -8,7 +8,7 @@ body{
     font-family: sans-serif;
     background-image: url(../images/homeback.jpg);
     background-size:cover;
-    height: 700px;
+    height: 100%;
     position: relative;
     background-repeat: no-repeat;
     
@@ -223,7 +223,7 @@ margin-left: 350px;
    padding: 50px;
     list-style: none;
     
-    margin-top: -50px;
+    margin-top: 20%;
     
 }
 
