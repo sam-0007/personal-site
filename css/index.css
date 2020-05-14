@@ -7,8 +7,8 @@ body{
     padding: 0px;
     font-family: sans-serif;
     background-image: url(../images/homeback.jpg);
-width:100%;
-	height:100%;
+background-size:cover;
+	height:700px;
    position:relative;
     
 }
