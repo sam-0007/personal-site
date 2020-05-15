@@ -152,8 +152,8 @@ float: right;
             
 .hi-slide .hi-next,
 .hi-slide .hi-prev 
-            { position: absolute;
-              top: 50%; 
+            { 
+              
               width: 3%;
               height: 40px; 
                    
@@ -176,10 +176,17 @@ float: right;
             background-color: #fff;  
             }
             
-           .hi-slide .hi-prev { left: 320px; }
+           .hi-slide .hi-prev {
+               position: relative;
+               margin-top:10%;
+               left: -6%; }
             
     .hi-slide .hi-prev::before { content: '<'; }
-    .hi-slide .hi-next { right: 230px; }
+    .hi-slide .hi-next {
+        z-index: 1;
+        position: relative;
+        margin-top: -4%;
+        right: -70%; }
     .hi-slide .hi-next::before { content: '>'; }
     
             .hi-slide > ul
