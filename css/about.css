@@ -20,19 +20,22 @@ margin-left: 10px;
    background:black;
    padding: 50px;
     list-style: none;
-    margin-top: 45px;
+   position: relative;
+   
     
 }
 
 
 
 .footer .partners{
+    position: relative;
   margin-bottom: 25px;
     margin-left: 25px;
-    margin-top: 30px;
+   
 }
 
 .footer .partners ul{
+    position: relative;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -41,7 +44,7 @@ margin-left: 10px;
 
 .footer .partners li a{
   
-	width: 101px;
+	width: 100px;
 	height: 100px;
   display: block;
   margin: 0 5px;
