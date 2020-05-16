@@ -19,7 +19,7 @@ margin-left: 10px;
 
 .sidebar{
   position: absolute;
-  width: 250px;
+  width: 18%;
   left: -75%;
   height: 395px;
   background: rgba(0,0,0,.5);
@@ -107,7 +107,7 @@ label #cancel{
   visibility: hidden;
 }
 #check:checked ~ label #cancel{
-  margin-left: 180px;
+  margin-left: 160px;
   opacity: 1;
     z-index: 1;
   visibility: visible;
@@ -150,7 +150,7 @@ label #cancel{
     position: relative;
     margin-top: 55px;
     margin-left: 0px;
-    
+    padding-left: 100px;
     left: 50%;
 transform:translate(-50%,-50%);
     width:100%;
@@ -180,7 +180,7 @@ transform:translate(-50%,-50%);
 .middle{
   position: absolute;
   top: 450px;
-  left: 50%;
+  left: 55%;
   transform: translate(-50%,-50%);
 }
 .navigation{
