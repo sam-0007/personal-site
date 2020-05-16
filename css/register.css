@@ -196,7 +196,7 @@ position: absolute;
     font-size:12px; 
 }
 .box input[type="submit"]
-{font-family: cursive;
+{font-family: 'Open Sans', sans-serif;
 background: transparent;
     border: none;
     outline: none;
@@ -208,24 +208,7 @@ background: transparent;
    float:right;
     margin: -10px;
 }
-.box .forgot{
-    font-family: cursive;
-font-size: 15px;
-    color:  #fff;
-    float: right;
-    margin-left: 10px;
-font-weight: 300;
-    
-}
-.box .forgot a{
-    font-size: 13px;
-    text-decoration: none;
-    color:  #03a9f4;
-    
-}
-.box .forgot a:hover{
-    color: crimson;
-}
+
 .quote{
   text-align: center;
     position: relative;
