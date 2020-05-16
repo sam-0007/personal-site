@@ -1,11 +1,6 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
-    background-image: url(../images/regback.jpg);
-    background-size:cover;
-    height: 1200px;
-     
 }
 
 
@@ -13,7 +8,8 @@ body{
 .one{
 
     background-color: black;
-    height: 65px;
+    height: 75px;
+    position: relative;'
 }
 .one img{height: 60px;
     width: auto;
@@ -21,16 +17,16 @@ body{
 margin-left: 10px;
 }
 .sidebar{
-  position: relative;
+  position: absolute;
   width: 240px;
-  left: -240px;
+  left: -75%;
   height: 330px;
   background: rgba(0,0,0,.5);
   transition: all .5s ease;
-    margin-top: 0px;
+    margin-top: -272px;
 }
 .sidebar header{
-  font-size: 28p30
+  font-size: 28px;
     margin-left: -50px;
   color: white;
   line-height: 70px;
@@ -40,6 +36,7 @@ margin-left: 10px;
   font-family: 'Montserrat', sans-serif;
 }
 .sidebar a{
+    position: relative;
     text-decoration: none;
   display: block;
   height: 65px;
@@ -87,7 +84,7 @@ label #btn,label #cancel{
   text-align: center;
   line-height: 45px;
   transition: all .5s ease;
-   
+   margin-top: -262px;
 
 }
 label #btn:hover,label #cancel:hover
@@ -113,7 +110,7 @@ label #cancel{
     z-index: 1;
   visibility: visible;
 }
-@media(max-width : 860px){
+@media(max-width : 160px){
   .sidebar{
     height: auto;
     width: 70px;
@@ -146,16 +143,17 @@ label #cancel{
 }
 .box
 {margin-top: 270px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
+    top: 250px;
+    left: 53%;
 transform:translate(-50%,-50%);
-    width:600px;
+    width:60%;
     padding: 40px;
     background: rgba(0,0,0,.8);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
     border-radius: 10px;
+   
 }
 
 .box .inputbox
@@ -208,6 +206,7 @@ background: transparent;
     cursor: pointer;
     border-radius: 5px;
    float:right;
+    margin: -10px;
 }
 .box .forgot{
     font-family: cursive;
@@ -233,7 +232,7 @@ font-weight: 300;
     margin-top: 35px;
     margin-left: 0px;
     
-    left: 50%;
+    left: 53%;
 transform:translate(-50%,-50%);
  
    
@@ -242,7 +241,7 @@ transform:translate(-50%,-50%);
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
  
 
-
+width: 50%;
     line-height: 120px;
    font-family: 'Gloria Hallelujah', cursive;
     font-weight: 900;
@@ -256,7 +255,7 @@ transform:translate(-50%,-50%);
    background:black;
    padding: 50px;
     list-style: none;
-    margin-top: 650px;
+   
     
 }
 
@@ -300,7 +299,7 @@ transform:translate(-50%,-50%);
   text-align: center;
   align-items: center;
   justify-content: center;
-   
+   margin-top: 10px;
     
 
 }
