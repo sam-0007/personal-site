@@ -175,7 +175,7 @@ transform:translate(-50%,-50%);
 }
 .box .inputbox label
 {
-    font-family:cursive;
+    font-family:'Open Sans', sans-serif;
 position: absolute;
     top: 0px;
     left: 0px;
