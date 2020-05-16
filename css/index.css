@@ -19,7 +19,7 @@ margin-left: 10px;
 
 .sidebar{
   position: absolute;
-  width: 18%;
+  width: 20%;
   left: -75%;
   height: 395px;
   background: rgba(0,0,0,.5);
@@ -107,7 +107,7 @@ label #cancel{
   visibility: hidden;
 }
 #check:checked ~ label #cancel{
-  margin-left: 160px;
+  margin-left: 14%;
   opacity: 1;
     z-index: 1;
   visibility: visible;
