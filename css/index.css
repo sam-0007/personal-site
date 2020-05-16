@@ -170,8 +170,8 @@ transform:translate(-50%,-50%);
     
 }
 .slidershow{
-  width: 50%;
-  height: 60%;
+  width: 60%;
+  height: 350px;
   overflow: hidden;
      box-sizing: border-box;
     box-shadow: 25px 65px 75px rgba(0,0,0,.9);
