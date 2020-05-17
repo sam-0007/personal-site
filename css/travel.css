@@ -2,6 +2,7 @@
       body{
   margin: 0;
   padding: 0;
+          
   
 }
 
@@ -132,25 +133,27 @@ position: relative;
 	cursor:pointer;
 	font-size: 16px;
 }
-.tabcontent{display:none}
-.tabcontent.active{display:block}
+.tabcontent{display:none;
+position: relative}
+.tabcontent.active{display:block;
+position: relative}
 
-          .sidebar #menu3{
-              width: 330%;
-              height: 380px;
-              margin-top: -480px;
-              margin-left: 430px;
+           #menu3{
+              width: 65%;
+              height: 400px;
+              margin-top:80px;
+              left: 23%;
               background: rgba(0,0,0,.7);
-              position:relative;
+              position:absolute;
               
           }
-          .sidebar #menu3 .desti{
+           #menu3 .desti{
     position: relative;
 }
-.sidebar #menu3 .desti input
+ #menu3 .desti input
 {
-    width: 205px;
-   margin-left: 212px;
+    width: 20%;
+   margin-left: 6.5%;
     font-size: 16px;
     color:#03a9f4;
     letter-spacing: 1px;
@@ -165,10 +168,10 @@ position: relative;
 }
  
           
-          .sidebar #menu3 .checkin input 
+           #menu3 .checkin input 
           {
-    width: 205px;
-   margin-left: 78px;
+    width: 20%;
+   margin-left: 7%;
     font-size: 16px;
     color:#03a9f4;
     letter-spacing: 1px;
@@ -180,10 +183,10 @@ position: relative;
     outline: none;
     padding-top: 20px;
 }
-          .sidebar #menu3 .checkout input 
+          #menu3 .checkout input 
           {
-    width: 205px;
-   margin-left: 64px;
+    width: 20%;
+   margin-left: 5.5%;
     font-size: 16px;
     color:#03a9f4;
     letter-spacing: 1px;
@@ -195,10 +198,10 @@ position: relative;
     outline: none;
     padding-top: 20px;
 }
-            .sidebar #menu3 .adult select 
+             #menu3 .adult select 
           {
-    width: 205px;
-   margin-left: 92px;
+    width: 20%;
+   margin-left: 9%;
     font-size: 16px;
     color: #03a9f4;
     letter-spacing: 1px;
@@ -211,10 +214,10 @@ position: relative;
     outline: none;
     padding-top: 20px;
 }
-   .sidebar #menu3 .child select
+    #menu3 .child select
           {
-    width: 205px;
-   margin-left: 75px;
+    width: 20%;
+   margin-left: 7%;
     font-size: 16px;
     color: #03a9f4;
     letter-spacing: 1px;
@@ -227,32 +230,37 @@ position: relative;
     padding-top: 20px;
 }
  
-.sidebar #menu3 .center{
+ #menu3 .center{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: -60px;
+    
+ 
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-.sidebar #menu3 .outer{
+ #menu3 .outer{
   position: relative;
   margin: 0 50px;
   background: #111;
+    
 }
-.sidebar #menu3 .button{
-  height: 35px;
+ #menu3 .button{
+  height: 40px;
   width: 90px;
   border-radius: 50px;
+     margin-left: -30px;
+     padding-left: 25px;
 }
 
-.sidebar #menu3 .outer button, .outer span{
+ #menu3 .outer button{
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 20%;
   transform: translate(-50%, -50%);
 }
-.sidebar #menu3 .outer button{
+ #menu3 .outer button{
   background: black;
   color: #f2f2f2;
   outline: none;
@@ -263,24 +271,25 @@ position: relative;
   text-transform: uppercase;
   cursor: pointer;
 }
-.sidebar #menu3 .button button{
+#menu3 .button button{
   height: 30px;
-  width: 80px;
+  width: 90px;
   border-radius: 50px;
+    margin-left: 15px
 }
 
 
-.sidebar #menu3 .button span{
+ #menu3 .button span{
   border-radius: 50px;
 }
 
-.sidebar #menu3 .outer:hover span:nth-child(1){
+ #menu3 .outer:hover span:nth-child(1){
   filter: blur(50px);
 }
-.sidebar #menu3 .outer:hover span:nth-child(2){
+ #menu3 .outer:hover span:nth-child(2){
   filter: blur(14px);
 }
-.sidebar #menu3 .outer:hover{
+ #menu3 .outer:hover{
   background:aqua;
   animation: rotate 1.5s linear infinite;
 }
@@ -301,35 +310,36 @@ position: relative;
     margin: 50px 0;
   }
 }
-            .sidebar #menu1{
-              width: 330%;
+             #menu1{
+              width: 70%;
               height:800px;
-              margin-top: -480px;
-              margin-left: 420px;
+              margin-top: 80px;
+             position: absolute;
               background: rgba(0,0,0,.7);
-              position:relative;
-             
+             overflow:scroll;
+left: 23%;                
+             margin-right: 20px;
                 
                
-          }
-           .sidebar #menu4{
-              width: 330%;
-              height: 380px;
-              margin-top: -480px;
-              margin-left: 430px;
+  }
+            #menu4{
+             width: 65%;
+              height: 410px;
+              margin-top: 80px;
+              left: 23%;
               background: rgba(0,0,0,.7);
-              position:relative;
+              position:absolute;
               
           }
     
                
-          .sidebar #menu4 .desti{
+           #menu4 .desti{
     position: relative;
 }
-.sidebar #menu4 .desti input
+ #menu4 .desti input
 {
-    width: 205px;
-   margin-left: 212px;
+    width: 20%;
+   margin-left: 10%;
     font-size: 16px;
     color:#03a9f4;
     letter-spacing: 1px;
@@ -344,10 +354,10 @@ position: relative;
 }
  
         
-          .sidebar #menu4 .checkout input 
+          #menu4 .checkout input 
           {
-    width: 205px;
-   margin-left: 114px;
+    width: 20%;
+   margin-left: 10%;
     font-size: 16px;
     color:#03a9f4;
     letter-spacing: 1px;
@@ -359,10 +369,10 @@ position: relative;
     outline: none;
     padding-top: 20px;
 }
-            .sidebar #menu4 .adult select 
+             #menu4 .adult select 
           {
-    width: 205px;
-   margin-left: 92px;
+    width: 20%;
+   margin-left: 7.5%;
     font-size: 16px;
     color: #03a9f4;
     letter-spacing: 1px;
@@ -375,10 +385,10 @@ position: relative;
     outline: none;
     padding-top: 20px;
 }
-   .sidebar #menu4 .child select
+    #menu4 .child select
           {
-    width: 205px;
-   margin-left: 75px;
+    width: 20%;
+   margin-left: 5.5%;
     font-size: 16px;
     color: #03a9f4;
     letter-spacing: 1px;
@@ -391,32 +401,32 @@ position: relative;
     padding-top: 20px;
 }
  
-.sidebar #menu4 .center{
+ #menu4 .center{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: -220px;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-.sidebar #menu4 .outer{
+ #menu4 .outer{
   position: relative;
   margin: 0 50px;
   background: #111;
 }
-.sidebar #menu4 .button{
-  height: 35px;
-  width: 90px;
+ #menu4 .button{
+  height: 40px;
+  width: 100px;
   border-radius: 50px;
 }
 
-.sidebar #menu4 .outer button, .outer span{
+ #menu4 .outer button, .outer span{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.sidebar #menu4 .outer button{
+ #menu4 .outer button{
   background: black;
   color: #f2f2f2;
   outline: none;
@@ -427,24 +437,24 @@ position: relative;
   text-transform: uppercase;
   cursor: pointer;
 }
-.sidebar #menu4 .button button{
+ #menu4 .button button{
   height: 30px;
   width: 80px;
   border-radius: 50px;
 }
 
 
-.sidebar #menu4 .button span{
+ #menu4 .button span{
   border-radius: 50px;
 }
 
-.sidebar #menu4 .outer:hover span:nth-child(1){
+ #menu4 .outer:hover span:nth-child(1){
   filter: blur(50px);
 }
-.sidebar #menu4 .outer:hover span:nth-child(2){
+ #menu4 .outer:hover span:nth-child(2){
   filter: blur(14px);
 }
-.sidebar #menu4 .outer:hover{
+ #menu4 .outer:hover{
   background:aqua;
   animation: rotate 1.5s linear infinite;
 }
@@ -465,24 +475,24 @@ position: relative;
     margin: 50px 0;
   }
 }
-                  .sidebar #menu5{
-              width: 820px;
-              height: 420px;
-              margin-top: -480px;
-              margin-left: 430px;
+                #menu5{
+             width: 65%;
+              height: 450px;
+              margin-top:60px;
+              left: 23%;
               background: rgba(0,0,0,.7);
-              position:relative;
+              position:absolute;
               
           }
     
                
-          .sidebar #menu5 .desti{
+          #menu5 .desti{
     position: relative;
 }
-.sidebar #menu5 .desti input
+ #menu5 .desti input
 {
-    width: 205px;
-   margin-left: 212px;
+    width: 20%;
+   margin-left: 10%;
     font-size: 16px;
     color:#03a9f4;
     letter-spacing: 1px;
@@ -497,10 +507,10 @@ position: relative;
 }
  
         
-          .sidebar #menu5 .checkout input 
+         #menu5 .checkout input 
           {
-    width: 205px;
-   margin-left: 114px;
+    width: 20%;
+   margin-left: 11%;
     font-size: 16px;
     color:#03a9f4;
     letter-spacing: 1px;
@@ -512,10 +522,10 @@ position: relative;
     outline: none;
     padding-top: 20px;
 }
-            .sidebar #menu5 .adult select 
+            #menu5 .adult select 
           {
-    width: 205px;
-   margin-left: 92px;
+    width: 20%;
+   margin-left: 9%;
     font-size: 16px;
     color: #03a9f4;
     letter-spacing: 1px;
@@ -528,10 +538,10 @@ position: relative;
     outline: none;
     padding-top: 20px;
 }
-   .sidebar #menu5 .child select
+    #menu5 .child select
           {
-    width: 205px;
-   margin-left: 75px;
+    width: 20%;
+   margin-left: 6.5%;
     font-size: 16px;
     color: #03a9f4;
     letter-spacing: 1px;
@@ -544,33 +554,33 @@ position: relative;
     padding-top: 20px;
 }
  
-.sidebar #menu5 .center{
+ #menu5 .center{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: -160px;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-.sidebar #menu5 .outer{
+ #menu5 .outer{
   position: relative;
   margin: 0 50px;
   background: #111;
 }
-.sidebar #menu5 .button{
+ #menu5 .button{
   height: 35px;
   width: 90px;
     padding-top: 4px;
   border-radius: 50px;
 }
 
-.sidebar #menu .outer button, .outer span{
+ #menu5 .outer button, .outer span{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.sidebar #menu5 .outer button{
+ #menu5 .outer button{
   background: black;
   color: #f2f2f2;
   outline: none;
@@ -581,24 +591,24 @@ position: relative;
   text-transform: uppercase;
   cursor: pointer;
 }
-.sidebar #menu5 .button button{
+ #menu5 .button button{
   height: 30px;
   width: 80px;
   border-radius: 50px;
 }
 
 
-.sidebar #menu5 .button span{
+ #menu5 .button span{
   border-radius: 50px;
 }
 
-.sidebar #menu5 .outer:hover span:nth-child(1){
+ #menu5 .outer:hover span:nth-child(1){
   filter: blur(50px);
 }
-.sidebar #menu5 .outer:hover span:nth-child(2){
+ #menu5 .outer:hover span:nth-child(2){
   filter: blur(14px);
 }
-.sidebar #menu5 .outer:hover{
+ #menu5 .outer:hover{
   background:aqua;
   animation: rotate 1.5s linear infinite;
 }
@@ -610,7 +620,7 @@ position: relative;
     filter: hue-rotate(360deg);
   }
 }
-@media (max-width: 640px){
+@media (max-width: 240px){
   .center{
     flex-wrap: wrap;
     flex-direction: column;
@@ -619,13 +629,13 @@ position: relative;
     margin: 50px 0;
   }
 }
-          .sidebar #menu6{
-              width: 820px;
-              height: 380px;
-              margin-top: -480px;
-              margin-left: 430px;
+           #menu6{
+                           width: 65%;
+              height: 450px;
+              margin-top:60px;
+              left: 23%;
               background: rgba(0,0,0,.7);
-              position:relative;
+              position:absolute;
               
           }
     @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
@@ -633,10 +643,11 @@ position: relative;
 
 .wrapper{
   position: absolute;
-   margin-top:-120px;
-              margin-left: 850px;
+   margin-top:350px;
+
+              margin-left:55%;
   transform: translate(-50%,-50%);
-  width: 820px;
+  width: 65%;
               height:650px;
   display: flex;
   box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
@@ -723,7 +734,7 @@ margin-top: -10px;
 
 
  
-          .sidebar #menu2 .wrapper .left .center{
+           #menu2 .wrapper .left .center{
     margin-top: 200px;
     margin-left: 0px;
   display: flex;
@@ -731,25 +742,26 @@ margin-top: -10px;
   align-items: center;
   justify-content: center;
 }
-.sidebar #menu2 .wrapper .left .outer{
+ #menu2 .wrapper .left .outer{
   position: relative;
-  margin: 0 50px;
+
   background: #111;
 }
-.sidebar #menu2 .wrapper .left .button{
-  height: 50px;
-  width: 180px;
-   
+ #menu2 .wrapper .left .button{
+  height: 60px;
+  width: 130px;
+   line-height: 15px;
   border-radius: 50px;
+  margin-bottom: 40px;
 }
 
-.sidebar #menu2 .wrapper .left .outer a,.sidebar #menu2 .wrapper .left .outer span{
+ #menu2 .wrapper .left .outer a,.sidebar #menu2 .wrapper .left .outer span{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.sidebar #menu2 .wrapper .left .outer a{
+ #menu2 .wrapper .left .outer a{
   background: black;
   color: #f2f2f2;
   outline: none;
@@ -759,25 +771,28 @@ margin-top: -10px;
   letter-spacing: 1px;
   text-transform: uppercase;
   cursor: pointer;
+    padding-top: 10px;
+     text-decoration: none;
+     font-weight: 900;
 
 }
-          .sidebar #menu2 .wrapper .left .button a{
+          #menu2 .wrapper .left .button a{
   height: 40px;
-  width: 140px;
+  width: 100px;
   border-radius: 50px;
-             
+           
             
 }
 
 
 
-.sidebar #menu2 .wrapper .left .outer:hover span:nth-child(1){
+ #menu2 .wrapper .left .outer:hover span:nth-child(1){
   filter: blur(50px);
 }
-.sidebar #menu2 .wrapper .left .outer:hover span:nth-child(2){
+ #menu2 .wrapper .left .outer:hover span:nth-child(2){
   filter: blur(14px);
 }
-.sidebar #menu2 .wrapper .left .outer:hover{
+ #menu2 .wrapper .left .outer:hover{
   background:aqua;
   animation: rotate 1.5s linear infinite;
 }
