@@ -40,7 +40,7 @@ header{   z-index: 1;
 margin-top: -45px;
   position: absolute;
   left: 0px;
-  width: 250px;
+  width: 210px;
   height:503px;
   transition: 0.5s;
   transition-property: left;
@@ -97,7 +97,7 @@ label #sidebar_btn:hover{
 }
 
 #check:checked ~ .sidebar{
-  left: -190px;
+  left: -150px;
 }
 
 #check:checked ~ .sidebar a label{
@@ -106,7 +106,7 @@ label #sidebar_btn:hover{
 
 #check:checked ~ .sidebar a{
   font-size: 20px;
-  margin-left: 170px;
+  margin-left: 130px;
   width: 80px;
 }
 
@@ -142,7 +142,7 @@ position: relative}
               width: 65%;
               height: 400px;
               margin-top:80px;
-              left: 23%;
+              left: 25%;
               background: rgba(0,0,0,.7);
               position:absolute;
               
@@ -317,16 +317,16 @@ position: relative}
              position: absolute;
               background: rgba(0,0,0,.7);
              overflow:scroll;
-left: 23%;                
+left: 25%;                
              margin-right: 20px;
                 
                
-  }
+}
             #menu4{
              width: 65%;
               height: 410px;
               margin-top: 80px;
-              left: 23%;
+              left: 25%;
               background: rgba(0,0,0,.7);
               position:absolute;
               
@@ -479,7 +479,7 @@ left: 23%;
              width: 65%;
               height: 450px;
               margin-top:60px;
-              left: 23%;
+              left: 25%;
               background: rgba(0,0,0,.7);
               position:absolute;
               
@@ -633,7 +633,7 @@ left: 23%;
                            width: 65%;
               height: 450px;
               margin-top:60px;
-              left: 23%;
+              left: 25%;
               background: rgba(0,0,0,.7);
               position:absolute;
               
